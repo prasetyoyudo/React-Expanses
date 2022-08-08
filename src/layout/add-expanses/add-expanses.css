@@ -1,0 +1,51 @@
+.add-expanses-modal {
+    width: 50%;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+input, .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+    background-color: #E8F4F7;
+    width: 100%;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 1rem;
+}
+
+.submit-expanses-btn {
+    background-color: #F7B200;
+    padding: 8px;
+    border-radius: 20px;
+    color : #ffffff
+}
+
+input:focus {
+    outline: none;
+}
+
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+    outline: none;
+}
+
+.react-datepicker-popper[data-placement^=bottom] {
+    z-index: 10;
+}
+
+.disabled-button {
+    background-color: #D4D4D4;
+    padding: 8px;
+    border-radius: 20px;
+    color : #ffffff
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+  }

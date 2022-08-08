@@ -1,0 +1,47 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "jam": "2022-08-07T00:35:00.566Z",
+      "tanggal": "18 Februari 2021",
+      "nama": "Ayam Tangkap",
+      "pengeluaran": 77249
+    },
+    {
+      "id": 2,
+      "jam": "2022-08-07T00:35:00.566Z",
+      "tanggal": "18 Februari 2021",
+      "nama": "Mie Rebus",
+      "pengeluaran": 32154
+    },
+    {
+      "id": 3,
+      "jam": "2022-08-07T00:35:00.566Z",
+      "tanggal": "17 Februari 2021",
+      "nama": "Soto Kuning",
+      "pengeluaran": 34992
+    },
+    {
+      "id": 4,
+      "jam": "2022-08-07T00:35:00.566Z",
+      "tanggal": "17 Februari 2021",
+      "nama": "Ayam Geprek",
+      "pengeluaran": 37674
+    },
+    {
+      "id": 5,
+      "jam": "2022-08-07T00:35:00.566Z",
+      "tanggal": "16 Februari 2021",
+      "nama": "Otak-otak",
+      "pengeluaran": 11971
+    },
+
+    {
+      "tanggal": "2022-08-06T17:00:00.000Z",
+      "jam": "2022-08-07T22:25:00.381Z",
+      "nama": "tesitng",
+      "pengeluaran": 9996,
+      "id": 7
+    }
+  ]
+}

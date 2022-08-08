@@ -1,0 +1,20 @@
+.body-layout {
+    background-color: antiquewhite;
+    height: 100%;
+}
+
+.add-modal-expanses {
+    margin-left: 33%;
+    backdrop-filter: blur(100px)
+}
+
+.add-btn {
+    background-color: #F7B200;
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+.card-expand {
+    height: 300px;
+}
