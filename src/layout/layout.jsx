@@ -10,6 +10,9 @@ export function Layout() {
   const { getListExpansesRes, getListExpansesLoading, getListExpansesError } =
     useSelector((state) => state.ExpansesReducer);
   const [showAddModal, setShowAddModal] = useState(false);
+  const onOpenModal = (isOpen) => {
+    setShowAddModal(isOpen)
+  }
 
   const dispatch = useDispatch();
 
@@ -31,7 +34,7 @@ export function Layout() {
         </button>
         {showAddModal && (
           <div className="add-modal-expanses">
-            <AddExpanses />
+            <AddExpanses onOpenModal={onOpenModal} />
           </div>
         )}
       </div>

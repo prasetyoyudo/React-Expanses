@@ -11,7 +11,7 @@ import { TextField } from "@mui/material";
 import moment from "moment";
 import Swal from "sweetalert2";
 
-export function AddExpanses() {
+export function AddExpanses({onOpenModal}) {
   const [jam, setJam] = useState(null);
   const [nama, setNama] = useState("");
   const [pengeluaran, setPengeluaran] = useState('');
@@ -28,8 +28,9 @@ export function AddExpanses() {
 
     setTimeout(() => {
       Swal.fire("Selamat", "Pengeluaran berhasil dicatat", "success");
+      setShowAddModal(false);
+      onOpenModal(false)
     }, 300);
-    setShowAddModal(false);
   };
 
   useEffect(() => {
@@ -38,7 +39,7 @@ export function AddExpanses() {
       setTanggal("");
       setJam("");
       setNama("");
-      setPengeluaran(0);
+      setPengeluaran("");
     }
   }, [addExpansesResult, dispatch]);
 
